@@ -1,0 +1,313 @@
+* {
+    font-family: '微軟正黑體';
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url(../img/wallet-spotlight.png);
+    margin: 0;
+}
+
+.app-top {
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-image: url(../img/wallet-bg.png);
+    background-size: 100% 245%;
+    height: 0;
+    padding-bottom: 100%;
+}
+
+.app-bottom {
+    background-color: #22bdb8;
+    height: 0;
+    padding-bottom: 310%;
+}
+
+.title {
+    margin: 0 auto;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: url(../img/wallet-mainView-A.png);
+    background-size: 100% 120%;
+    height: 0;
+    padding-bottom: 100%;
+    z-index: 0;
+}
+
+.title2 {
+    margin: 0 auto;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: url(../img/wallet-mainView-B.png);
+    background-size: 100% 120%;
+    height: 0;
+    padding-bottom: 100%;
+    z-index: 0;
+}
+
+.content-main {
+    color: white;
+    line-height: .5rem;
+    text-align: center;
+    font-size: 5vw;
+    margin-top: -18vw;
+}
+
+.receiveMission-text {
+    color: #182879;
+    font-weight: bold;
+    text-align: center;
+    font-size: 3vw;
+}
+
+.stamp-card {
+    padding: 10px;
+    border-radius: 10px;
+    margin: 2rem .8rem;
+    background-color: #fff;
+    overflow: auto;
+}
+
+.mul {
+    list-style-type: none;
+    margin: 3%;
+    padding: 0;
+    font-size: 4vw;
+    font-weight: bold;
+    list-style-position: outside;
+}
+
+.stamp-card {
+    text-align: center;
+}
+
+.block {
+    display: inline-block;
+    width: 18%;
+    margin-bottom: 5%;
+}
+
+.block-title span {
+    font-size: 2.5vw;
+    color: #22bdb8;
+}
+
+.block-date span {
+    font-size: 1.5vw;
+    color: #fa4f7a;
+    font-weight: bold;
+}
+
+.block-img-catPalm-A {
+    margin: 0 auto;
+    width: 75%;
+    background-repeat: no-repeat;
+    background-image: url(../img/wallet-catPalm-A.png);
+    background-size: 100% 100%;
+    height: 0;
+    padding-bottom: 75%;
+}
+
+.block-img-catPalm-A.Stamp {
+    background-image: url(../img/wallet-catPalm-A-Stamp.png);
+}
+
+.block-img-catPalm-B {
+    margin: 0 auto;
+    width: 75%;
+    background-repeat: no-repeat;
+    background-image: url(../img/wallet-catPalm-B.png);
+    background-size: 100% 100%;
+    height: 0;
+    padding-bottom: 75%;
+}
+
+.block-img-catPalm-B.Stamp {
+    background-image: url(../img/wallet-catPalm-B-Stamp.png);
+}
+
+.div0 {
+    display: flex;
+    justify-content: center;
+    padding: 3vw;
+}
+
+.div2 {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-white {
+    background-color: white;
+    border: none;
+    color: #22bdb8;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 5vw;
+    font-weight: bold;
+    border-radius: 1vw;
+    cursor: pointer;
+    margin: 5% 10%;
+    padding: 2%;
+}
+
+.joinBtn {
+    background-color: white;
+    border-style: none;
+    outline-offset: .5vw;
+    color: #fa4f7a;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 5vw;
+    font-weight: bold;
+    border-radius: 2vw;
+    cursor: pointer;
+}
+
+.outLine-border {
+    border-width: .2vw;
+    border-style: solid;
+    border-color: white;
+    border-radius: 2.5vw;
+    padding: 0.3rem;
+}
+
+.award-card {
+    padding: 1vw 10vw 7vw 10vw;
+    border-radius: 5px;
+    margin: -11vw 1.5rem 2rem 1.5rem;
+    background-color: #fa7368;
+    background-image: url(../img/wallet-award-dot.png);
+    background-size: 100%;
+    overflow: auto;
+    border-width: 0.2vw;
+    border-style: solid;
+    border-color: white;
+}
+
+.award-card-title-bg {
+    background-image: url(../img/wallet-award-gift.png);
+    background-position: center;
+    background-size: 50%;
+    padding-bottom: 20%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.award-card-title {
+    text-align: center;
+    font-size: 4vw;
+    font-weight: bolder;
+    color: white;
+}
+
+.circle-yellow {
+    width: 7vw;
+    height: 7vw;
+    border-radius: 50%;
+    font-weight: 900;
+    font-size: 4vw;
+    color: #fa7368;
+    line-height: 7vw;
+    text-align: center;
+    background: #ffff63;
+    float: left;
+    margin: .2vw;
+}
+
+.circle-gray {
+    width: 7vw;
+    height: 7vw;
+    border-radius: 50%;
+    font-weight: bolder;
+    font-size: 4vw;
+    color: #fa7368;
+    line-height: 7vw;
+    text-align: center;
+    background: #d5fbf2;
+    float: left;
+    margin: .2vw;
+}
+
+.award-title {
+    overflow: auto;
+}
+
+.award-body {
+    text-shadow: #766060 0.1em 0.1em 0.2em;
+    font-size: 4vw;
+    color: white;
+    overflow: auto;
+    font-weight: bolder;
+}
+
+.mainAward {
+    margin-top: 5vw;
+}
+
+.secondAward {
+    margin-top: 5vw;
+}
+
+.card {
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 300ms;
+    overflow: auto;
+}
+
+.open {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.open .modal {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+.modal {
+    width: 90%;
+    background: #fff;
+    border-radius: 5px;
+    margin: 10vw auto;
+    transform: translate(0, -100%);
+    opacity: 0;
+    transition: all 300ms;
+}
+
+.modal-head {
+    height: 100%;
+    border-radius: 5px 5px 0 0;
+    position: relative;
+}
+
+.modal-body {
+    padding: 40px 30px 20px;
+    line-height: 1.6;
+    font-size: 3.5vw;
+}
+
+.btn-close {
+    color: #fff;
+    position: fixed;
+    top: 2vw;
+    right: 4vw;
+    font-size: 4vw;
+    text-decoration: none;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;        
+}
