@@ -21,7 +21,7 @@ body {
 .app-bottom {
     background-color: #22bdb8;
     height: 0;
-    padding-bottom: 310%;
+    padding-bottom: 300vw;
 }
 
 .title {
@@ -133,9 +133,31 @@ body {
     padding: 3vw;
 }
 
+.join-btn {
+    animation-name: jump;
+    animation-duration: 1s;
+}
+
+@keyframes jump {
+    0% {
+        transform: scale(0);
+    }
+    30% {
+        transform: scale(1.2);
+    }
+    60% {
+        transform: scale(0.95);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
 .div2 {
     display: flex;
     justify-content: center;
+    margin: 5vw;
 }
 
 .btn-white {
@@ -189,7 +211,7 @@ body {
 }
 
 .award-card-title-bg {
-    background-image: url(../img/wallet-award-gift.png);
+    background-image: url(../img/wallet-giftBox.png);
     background-position: center;
     background-size: 50%;
     padding-bottom: 20%;
@@ -245,7 +267,7 @@ body {
 }
 
 .mainAward {
-    margin-top: 5vw;
+    margin-top: 15vw;
 }
 
 .secondAward {
@@ -288,12 +310,14 @@ body {
 
 .modal-head {
     height: 100%;
+    padding: 5vw 0vw 0vw 10vw;
+    font-size: 5vw;
     border-radius: 5px 5px 0 0;
     position: relative;
 }
 
 .modal-body {
-    padding: 40px 30px 20px;
+    padding: 1vw 4vw 3vw 3vw;
     line-height: 1.6;
     font-size: 3.5vw;
 }

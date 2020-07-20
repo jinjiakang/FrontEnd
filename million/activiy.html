@@ -24,23 +24,12 @@
                         style="font-size: 5.5vw;color:#ffff63">萬點</span>紅利點數!</h5>
             </div>
             <div class="div0">
-                <div class="outLine-border">
-                    <button class="joinBtn" style="font-size: 7vw;padding: 1.5vw;">
-                        立即參加
-                        <div style="display:inline-block;vertical-align: middle;">
-                            <img src="./img/wallet-arrow-red.png" style="width: 8vw;">
-                        </div>
-                    </button>
+                <div style="display:inline-block;vertical-align: middle;width: 50vw">
+                    <img class="join-btn" src="./img/wallet-join-btn.png" width="100%">
                 </div>
             </div>
-
-            <div class="award-card-title-bg">
-
-            </div>
+            <div class="award-card-title-bg"></div>
             <div class="award-card">
-                <div class="award-card-title">
-                    抽獎說明
-                </div>
                 <div class="mainAward">
                     <div class="award-title">
                         <div class="circle-yellow">最</div>
@@ -153,13 +142,12 @@
 
             </div>
             <div class="div2">
-                <button class="btn-white" onclick="openModal('card1')">
-                    活動詳情<img src="./img/wallet-arrow.png" style="width: 4vw;">
-                </button>
-                <button class="btn-white" onclick="openModal('card2')">
-                    注意事項<img src="./img/wallet-arrow.png" style="width: 4vw;">
-                </button>
-
+                <div style="margin: 2vw 5vw;width: 30vw;">
+                    <img src="./img/wallet-actDetail-btn.png" style="width: 100%" onclick="openModal('card1')">
+                </div>
+                <div style="margin: 2vw 5vw;width: 30vw;">
+                    <img src="./img/wallet-precautions-btn.png" style="width: 100%" onclick="openModal('card2')">
+                </div>
             </div>
         </div>
     </div>
@@ -187,8 +175,17 @@
 
         </div>
         <div class="modal-body">
-            2
-
+            <ul style="list-style-type:decimal;">
+                <li>活動期間為2020.07.29~2020.08.17，需於活動期間至活動網頁點選我要參加並登入10天，始符合均分1,000萬點紅利及抽獎資格，恕無法補登。Debit卡及附卡持卡人不適用。</li>
+                <li>每日登入最多僅計算一次，本活動僅計算玉山信用卡(不含公司卡與採購卡)正卡持卡人登入玉山Wallet天數，
+                    均分之1,000萬點紅利點數將四捨五入後於2020.9.7起依關帳批次匯入正卡人之信用卡帳戶。
+                </li>
+                <li>登入App時間與日期以本行系統為準。</li>
+                <li>抽獎將於2020.9.7於玉山官網公告並依關帳批次回饋予正卡人。每戶限獲一項獎品。</li>
+                <li>中獎人或符合均分點數條件者，不得要求將紅利點數折換現金或轉讓予他人。</li>
+                <li>抽獎活動為機會中獎，依所得稅法之規定，累積中獎金額價值若超過1,000元整(1點=0.06元)將列入中獎人將列入中獎人個人之年度綜和所得稅申報。</li>
+                <li>玉山銀行保留活動修改、變更即終止之權利。</li>
+            </ul>
         </div>
     </div>
 </div>
@@ -206,12 +203,12 @@
         }, 450);
     });
 
-    function openModal(id){
-        $('#'+id).addClass("open");
+    function openModal(id) {
+        $('#' + id).addClass("open");
     }
 
-    function closeModal(id){
-        $('#'+id).removeClass("open");
+    function closeModal(id) {
+        $('#' + id).removeClass("open");
     }
 
 </script>
